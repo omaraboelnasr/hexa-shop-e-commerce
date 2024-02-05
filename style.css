@@ -1,0 +1,557 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #fcfcfc;
+}
+.cl{
+    clear: both;
+}
+/* start nav */
+.nav{
+    width: 80%;
+    height: 100px;
+}
+.nav .logo {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.nav .link{
+    float: right;
+    margin: 15px -100px;
+}
+.nav .link ul{
+    list-style: none;
+}
+.nav .link ul li{
+    display: inline-block;
+    padding-left: 40px;
+}
+.nav .link ul li a{
+    text-decoration: none;
+    color:black ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.nav .link ul li:nth-child(1) a{
+    color:gray ;
+
+}
+.cl{
+    clear: both;
+}
+.line hr{
+    border: 1px dashed gainsboro;
+    margin-top: -14px;
+}
+/* end nav */
+/* start header */
+.header {
+    width: 97%;
+    height: 670px;
+    margin: 25px 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.header .leftBanner {
+    width: 44%;
+    height: 670px;
+    background-image: url(images/left-banner-image.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.header .leftBanner .text{
+    color: #fcfcfc;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 285px;
+    margin-left: 20px;
+}
+.header .leftBanner .text h1{
+    font-size: 65px;
+}
+.header .leftBanner .text p{
+    font-size: 22px;
+    margin-top: -30px;
+}
+.header .leftBanner .text button{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff00;
+    border: 1px solid #fcfcfc;
+    padding: 12px 45px;
+}
+.header .leftBanner .text button a{
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 15px;
+    font-weight: 500;
+}
+.header .rightBanner{
+    width: 50%;
+    height: 670px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-left: -30px;
+}
+.header .rightBanner .women{
+    background:url(images/baner-right-image-01.jpg);
+    background-repeat: no-repeat;
+    width: 45%;
+    margin-bottom: 35px;
+}
+.header .rightBanner .men{
+    background:url(images/baner-right-image-02.jpg);
+    background-repeat: no-repeat;
+    width: 45%;
+    margin-bottom: 35px;
+}
+.header .rightBanner .kids{
+    background:url(images/baner-right-image-03.jpg);
+    background-repeat: no-repeat;
+    width: 45%;
+}
+.header .rightBanner .accessories{
+    background:url(images/baner-right-image-04.jpg);
+    background-repeat: no-repeat;
+    width: 45%;
+}
+.header .rightBanner .txt{
+    color: #fcfcfc;
+    font-family: 'Roboto', sans-serif;
+    margin: 119px 110px;
+    text-align: center;
+}
+.line2 hr{
+    border: 1px dashed gainsboro;
+    margin-top: 50px;
+}
+/* end header */
+/* start men section */
+.Section1{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+.Section1 .txt {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 90px;
+}
+.Section1 .txt h1 {
+    font-size: 35px;
+}
+.Section1 .txt p {
+    color:gray ;
+    font-weight: 500;
+    margin-top: -15px;
+}
+.Section1 .product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 35px;
+} 
+.Section1 .product .Carts{
+    transition-property: margin-top;
+    transition-duration: 1s;
+}
+.Section1 .product .Carts:hover .icons{
+    display: flex;
+}
+.Section1 .product .Carts .icons {
+    display: none;
+    margin-top: -74px;
+    margin-left: 45px;
+}
+.Section1 .product .Carts .icons a {
+    padding: 20px;
+    background-color: #fcfcfc;
+    margin: 9px 19px;
+    text-decoration: none;
+    color: black;
+}
+.Section1 .product .Carts .icons a i{
+    display: flex;
+}
+.Section1 .product .Carts .cartsInfo h1{
+float: left;
+font-size: 25px;
+margin-bottom: 10px;
+}
+.Section1 .product .Carts .cartsInfo i{
+    font-size: 15px;
+    float: right;
+    margin-top: 22px;
+}
+.Section1 .product .Carts .cartsInfo p{
+    color: gray;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+/* end men section */
+/* start women section */
+.Section2{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+.Section2 .txt {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 90px;
+}
+.Section2 .txt h1 {
+    font-size: 35px;
+}
+.Section2 .txt p {
+    color:gray ;
+    font-weight: 500;
+    margin-top: -15px;
+}
+.Section2 .product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 35px;
+} 
+.Section2 .product .Carts:hover .icons{
+    display: flex;
+}
+.Section2 .product .Carts .icons {
+    display: none;
+    margin-top: -74px;
+    margin-left: 45px;
+}
+.Section2 .product .Carts .icons a {
+    padding: 20px;
+    background-color: #fcfcfc;
+    margin: 9px 19px;
+    text-decoration: none;
+    color: black;
+}
+.Section2 .product .Carts .icons a i{
+    display: flex;
+}
+.Section2 .product .Carts .cartsInfo h1{
+float: left;
+font-size: 25px;
+margin-bottom: 10px;
+}
+.Section2 .product .Carts .cartsInfo i{
+    font-size: 15px;
+    float: right;
+    margin-top: 22px;
+}
+.Section2 .product .Carts .cartsInfo p{
+    color: gray;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+/* end women section */
+/* start kids section */
+.Section3{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+.Section3 .txt {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 90px;
+}
+.Section3 .txt h1 {
+    font-size: 35px;
+}
+.Section3 .txt p {
+    color:gray ;
+    font-weight: 500;
+    margin-top: -15px;
+}
+.Section3 .product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 35px;
+} 
+.Section3 .product .Carts:hover .icons{
+    display: flex;
+}
+.Section3 .product .Carts .icons {
+    display: none;
+    margin-top: -74px;
+    margin-left: 45px;
+}
+.Section3 .product .Carts .icons a {
+    padding: 20px;
+    background-color: #fcfcfc;
+    margin: 9px 19px;
+    text-decoration: none;
+    color: black;
+}
+.Section3 .product .Carts .icons a i{
+    display: flex;
+}
+.Section3 .product .Carts .cartsInfo h1{
+float: left;
+font-size: 25px;
+margin-bottom: 10px;
+}
+.Section3 .product .Carts .cartsInfo i{
+    font-size: 15px;
+    float: right;
+    margin-top: 22px;
+}
+.Section3 .product .Carts .cartsInfo p{
+    color: gray;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+/* end kids section */
+/* Start explore section */
+.explore {
+    width: 73%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: 247px;
+    font-family: 'Roboto', sans-serif;
+}
+.explore .leftBox{
+    width: 53%;
+    margin-left: -8px;
+    margin-top: -28px;
+}
+.explore .leftBox h1{
+    font-size: 35px;
+}
+.explore .leftBox p{
+    color: gray;
+    width: 90%;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+}
+.explore .leftBox p:nth-of-type(4) a {
+    display: inline-block;
+    color: rgb(20, 100, 197);
+    text-decoration: none;
+}
+.explore .leftBox p:nth-of-type(2){
+    display: inline-block;
+    color: black;
+    width: 79%;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+}
+.explore .leftBox  i{
+    font-size: 40px;
+    padding-right: 15px;
+}
+.explore .leftBox button{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff00;
+    border: 1px solid black;
+    padding: 12px 20px;
+    margin: 30px 0px;
+}
+.explore .leftBox button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.explore .rightBox{
+    width: 45%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.explore .rightBox .box1{
+    width: 263px;
+    height: 263px;
+    background-color: #dcdcdc61;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.explore .rightBox .box1 h1{
+    margin-top: 95px;
+}
+.explore .rightBox .box1 p{
+    color: gray;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.explore .rightBox .box2{
+    width: 263px;
+    height: 263px;
+    background-image: url(images/explore-image-01.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.explore .rightBox .box3{
+    width: 263px;
+    height: 263px;
+    background-image: url(images/explore-image-02.jpg);
+    background-repeat: no-repeat;
+}
+.explore .rightBox .box4{
+    width: 263px;
+    height: 263px;
+    background-color: #dcdcdc61;
+    text-align: center;
+}
+.explore .rightBox .box4 h1{
+    margin-top: 95px;
+}
+.explore .rightBox .box4 p{
+    color: gray;
+    font-weight: 500;
+    margin-top: -10px;
+}
+/* End explore section */
+/* start social section */
+.social {
+    width: 72%;
+    margin-top: 60px;
+    margin-left: 235px;
+}
+.social .txtSocial h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+.social .txtSocial p{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-weight: 500;
+    margin-top: -15px;
+}
+.social .imgSocial{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.social .imgSocial img {
+width: calc(100%/6);
+}
+/* end social section */
+/* start subscrib section */
+.subscrib {
+    width: 72%;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    margin-left: 235px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.subscrib .leftSub{
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -20px;
+}
+.subscrib .leftSub h1{
+    font-size: 35px;
+}
+.subscrib .leftSub p{
+    color: gray;
+    font-weight: 500;
+    margin-top: -15px;
+}
+.subscrib .leftSub input{
+    border: 1px solid black;
+    padding: 12px 37px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.subscrib .leftSub button{
+    background-color: black;
+    border: none;
+    padding: 12px 13px;
+}
+.subscrib .leftSub button a i{
+    font-size: 15px;
+}
+.subscrib .rightSub{
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 110px;
+}
+.subscrib .rightSub .box {
+    width: 50%;
+}
+.subscrib .rightSub .box h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.subscrib .rightSub .box p{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+/* end subscrib section */
+/* start footer */
+.footer {
+    width: 100%;
+    background-color: #313131;
+}
+.footer .up {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0px 170px;
+    padding-top: 35px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px
+}
+
+.footer .up .boxF {
+    width: calc(80%/4);
+    font-family: 'Roboto', sans-serif;
+    color: #fcfcfc;
+
+}
+.footer .up .boxF h1{
+    font-size: 22px;
+}
+.footer .up .boxF ul {
+    list-style: none;
+}
+.footer .up .boxF ul li {
+    margin-left: -39px;
+    padding-bottom: 16px;
+}
+.footer .up .boxF ul li a{
+    text-decoration: none;
+    color:#fcfcfc ;
+}
+.footer .down {
+    font-family: 'Roboto', sans-serif;
+    color:#fcfcfc ;
+    text-align: center;
+}
+.footer .down p a {
+    text-decoration: none;
+    color: rgb(20, 100, 197);
+}
+.footer .down .iconsF a i{
+    color:#fcfcfc ;
+    padding: 10px;
+    margin: 0px 8px;
+    font-size: 22px;
+}
+/* end footer */
